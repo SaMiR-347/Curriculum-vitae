@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+  
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,92 +18,124 @@
 
 
 <body>
+
   <!--EN TÊTE-->
   <header>
-    <div class="En-tête">
-        <figure>
-            <img class="photo-de-profil" src="./assets/image/photo-de-profil.jpeg" alt="photo de profil"">
-        </figure>
+    <figure>
+      <img class="photo-de-profil" src="./assets/image/photo-de-profil.jpeg"  alt="photo de profil"">
+    </figure>
+    <div>
+      <p>SAM SAMOLO</p>
+      <p>Développeur web junior</p>
     </div>
-    <div class="En-tête">
-        <p>SAM SAMOLO</p>
-        <p>Développeur web junior</p>
-    </div>
-    <adresse class="contact">
+  </header>
+
+  <main>
+    <!-- TOP SECTION -->
+    <section class="contact">
+      <address>
         <p> <a href="https://www.google.fr/maps/place/60+Rue+de+l'Acropole,+34000+Montpellier/@43.6061114,3.8899649,17z/data=!3m1!4b1!4m6!3m5!1s0x12b6af9c6bc49ce9:0x77ef8ed840e3dd2b!8m2!3d43.6061075!4d3.8925398!16s%2Fg%2F11bw404r1v?entry=ttu" class="contact-link"> 
-            60 rue de l'acropole, 34000 montpellier</a></p>
+         60 rue de l'acropole,<br /> 34000 montpellier</a></p>
+      </address>
+      <div>
         <p> <a href="mailto:l.strauss@gmail.com" class="contact-link">l.strauss@gmail.com</a></p>
+      </div>
+      
+       <div>
         <p> <a href="tel: 0606060606" class="contact-link">0606060606</a></p>
-    </adresse>
-</header>
+       </div>
+    </section>  
 
-  
-  <section id="container">
-      <div id="bloc-1">
-        <h2 class="post__title">A propos</h2>
-        Développeur web avec de bonnes compétences en html,
-        Mordu d'informatique, je me suis interessé au codage depuis mon jeune age,
-        en cours de formation chez CEF Learning Centre Européen de Formation
-        afin de devenir Développeur Full stack.
-        A la recherche d'un nouveau challenge.
+<!--ABOUT-->
 
-        <h2 class="post__title1"> Langues parlées</h2>
-        <ul class="menu__list">
+<div class="wrap_two_section">
+  <section class="container_left">
+    <div class="about">
+        <h2 class="about__title">A propos</h2>
+        <p class="about__post"> Developer web avec de bonnes compétences en html,
+          Mordu d'informatique, je me suis interessé au codage depuis mon jeune age,
+          en cours de formation chez CEF Learning Centre Européen de Formation
+          afin de devenir Développeur Full stack.
+          A la recherche d'un nouveau challenge.
+        </p>
+
+        <h2 class="about__title"> Langues parlées</h2>
+        <ul class="about__list">
           <li>Français - Langue maternelle</li>
           <li>Anglais - Notion</li>
         </ul>
 
-        <h2 class="post__title1"> Centres d'intérêt</h2>
-        <ul class="menu__list">
+        <h2 class="about__title"> Centres d'intérêt</h2>
+        <ul class="about__list">
           <li>Lecture</li>
           <li>Football</li>
           <li>Voyages</li>
         </ul>
-      </div>
+    </div>
+  </section>
 
-      <div id="bloc-2">
-        <h2 class="post__title2"> Expériences professionnelles</h2>
+<!-- CV -->
+  <section class="container_right">
+    <div class="cv">
+        <h2 class="cv__title"> Expériences professionnelles</h2>
         <h3>Chef d'equipe chez NH Transport</h3>
-        De 2014 à 2018
-        <ul class="menu__list2">
-          <li>Démarcher les prospects</li>
-          <li>Gérer un portefeuille client</li>
-          <li>Assurer le suivi de la clientèle</li>
-          <li>Négoce et Conseil</li>
-        </ul>
+        <p>De 2018 à 2023</p>
+          <ul class="cv__list">
+            <li>Pilotage des chauffeurs</li>
+            <li>Mise en place d’indicateurs de performance</li>
+            <li>Superviser la maintenance des véhicules</li>
+          </ul>
+
+        <h3>Commercial chez THE Afrique</h3>
+        <p>De 2014 à 2018</p>
+          <ul class="cv__list">
+            <li>Démarcher les prospects</li>
+            <li>Gérer un portefeuille client</li>
+            <li>Assurer le suivi de la clientèle</li>
+            <li>Négoce et Conseil</li>
+          </ul>
 
         <h3>Chauffeur livreur chez AFE Transport</h3>
-        de 2012 à 2014
-        <ul class="menu__list2">
-          <li>Préparation des tournées et charger en fonctions de l'ordre</li>
-          <li>Livrer en respectant les horaires défini</li>
-        </ul>
+        <p>De 2012 à 2014</p>
+          <ul class="cv__list">
+            <li>Préparation des tournées et charger en fonctions de l'ordre</li>
+            <li>Livrer en respectant les horaires défini</li>
+          </ul>
 
-        <h2 class="post__title2"> Diplômes/Formations</h2>
+        <h2 class="cv__title"> Diplômes/Formations</h2>
         <h3>Diplome/Formation n°2</h3>
-        de 2004 à 2006
+        <p>de 2004 à 2006</p>
         <p>IUT de commerce à Boirargues</p>
 
         <h3>Diplome/Formation n°2</h3>
-        De 2000 à 2004
+        <p>De 2000 à 2004</p>
         <p>Lycée Charles de Gaulle à Sète</p>
-        
-        <h2 class="post__title2"> Compétences</h2>
-        <ul class="menu__list2">
-          <li>HTML 5 - Expert </li>
-          <li>CSS 3 - Intérmédiaire</li>
-          <li>GitHub - Débutant</li>
-          <li>...</li>
-        </ul>
+      
+        <h2 class="cv__title"> Compétences</h2>
+          <ul class="cv__list">
+            <li>HTML 5 - Expert </li>
+            <li>CSS 3 - Intérmédiaire</li>
+            <li>GitHub - Débutant</li>
+            <li>...</li>
+          </ul>
       </div>
-  </section>
+    </section>
+</div> 
 
+  </main>
+<!--reseau social-->
   <footer>
-    <img class="linkedin" src="assets/image/linkedin.png"> 
-    <img class="twitter" src="assets/image/twitter.png">
-    <img class="github" src="assets/image/github.png"> 
-    Derniere mise à jour le 7 Décembre 2023
+    <div>
+      <a href="https://www.linkedin.com/in/samir-mustapha-14555b2a4/">
+      <img class="linkedin" src="assets/image/linkedin.png" alt="likedin"></a>
+      <a href="https://twitter.com/home?ref_src=twsrc%5Etfw">
+      <img class="twitter" src="assets/image/twitter.png" alt=twitter></a>
+      <a href="https://github.com/SaMiR-347"> 
+      <img class="github" src="assets/image/github.png" alt="github"></a>
+    </div>
+    <p><small>Dernière mise à jour le 7 Décembre 2023</small> </p>
   </footer>
 </body>
 
 </html>
+
